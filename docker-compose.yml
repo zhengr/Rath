@@ -2,6 +2,7 @@ services:
   frontend:
     build:
       context: .
-      dockerfile: client.dockerfile
+      dockerfile: localclient.dockerfile
     ports:
-      - 8080:80
+      - 3000:3000
+      - 5001:5001
