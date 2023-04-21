@@ -29,6 +29,8 @@ const VisualInterface: React.FC = (props) => {
             keepAlive
             dark="light"
             fieldKeyGuard={false}
+            themeKey="g2"
+            hideDataSourceConfig={true}
         />
     );
 };
